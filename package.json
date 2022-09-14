@@ -1,4 +1,13 @@
 {
+  "root": "public",
+    "clean_urls": true,
+    "https_only": true,
+    "error_page": "error.html",
+    "headers": {
+        "/**": {
+            "Access-Control-Allow-Origin": "*"
+        }
+      },
   "name": "bootstrap-v5",
   "version": "1.0.0",
   "description": "Learning bootstrap v5 with sass",
@@ -13,7 +22,7 @@
     "learn-bootstrap",
     "learn-sass"
   ],
-  "author": "Patrick Muriungi",
+  "author": "hammad khan",
   "license": "ISC",
   "devDependencies": {
     "sass": "^1.32.12"
